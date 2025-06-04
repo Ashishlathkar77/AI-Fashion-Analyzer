@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250604223037",
+  "image_info": {
+    "name": "Bespoke-Designer-sport-jacket-1.jpg",
+    "size_bytes": 26186,
+    "dimensions": [
+      288,
+      512
+    ],
+    "processed_path": "static/temp_13efcfa1-ec08-4b38-a1fe-ce1ef5638201.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          14,
+          63,
+          83
+        ],
+        "hex": "#0e3f53",
+        "name": "navy",
+        "percentage": 55.0
+      },
+      {
+        "rgb": [
+          72,
+          147,
+          174
+        ],
+        "hex": "#4893ae",
+        "name": "gray",
+        "percentage": 36.61
+      },
+      {
+        "rgb": [
+          194,
+          172,
+          157
+        ],
+        "hex": "#c2ac9d",
+        "name": "khaki",
+        "percentage": 8.39
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "navy"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 61.98,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 10.0,
+      "female_percentage": 0.0
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a navy sweater with gray and khaki accents, paired with a size L fit for a regular silhouette.\n\n2. **Style Assessment**: This outfit embodies a unisex appeal with its neutral colors and classic fit, suitable for anyone looking for a comfortable and stylish ensemble.\n\n3. **Accessory Recommendations**:\n- A classic watch with a leather or metal band\n- Aviator sunglasses for a timeless look\n- A sleek crossbody bag for practicality\n- A simple leather belt to complete the outfit\n- White sneakers or casual shoes for a laid-back vibe\n- A baseball cap for a sporty touch\n- Minimal jewelry such as a simple bracelet or necklace\n\n4. **Outfit Suggestions**: Pair the navy sweater with khaki chinos and white sneakers for a casual yet put-together look. Add a crossbody bag and a watch to complete the outfit.\n\n5. **Social Media Caption**: \"Embrace the versatility of neutral tones with this unisex outfit. Classic and comfortable, perfect for any day out. #GenderNeutralStyle\"",
+  "timestamp": "2025-06-04T22:30:37.962234"
+}

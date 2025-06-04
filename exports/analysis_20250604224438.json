@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250604224438",
+  "image_info": {
+    "name": "HM-Men-2016-Spring-Summer-Look-Book-001-800x1132.jpg",
+    "size_bytes": 18423,
+    "dimensions": [
+      362,
+      512
+    ],
+    "processed_path": "static/temp_ac2e0f62-ddec-480a-ba32-eef7539bc41a.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          125,
+          83,
+          52
+        ],
+        "hex": "#7d5334",
+        "name": "brown",
+        "percentage": 53.28
+      },
+      {
+        "rgb": [
+          29,
+          23,
+          21
+        ],
+        "hex": "#1d1715",
+        "name": "black",
+        "percentage": 24.28
+      },
+      {
+        "rgb": [
+          144,
+          127,
+          118
+        ],
+        "hex": "#907f76",
+        "name": "gray",
+        "percentage": 22.44
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "brown"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "S",
+    "confidence": 0.78,
+    "reasoning": "Edge strength in upper body region indicates shoulder width and build",
+    "measurements": {
+      "shoulder_ratio": 0.1,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 0.0,
+      "female_percentage": 13.3
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a mix of brown, black, and gray colors in a size S with a regular fit. The overall look is versatile and can be styled in various ways.\n\n2. **Style Assessment**: This outfit rates highly in unisex styling principles due to its neutral color palette and fit that can easily be worn by anyone.\n\n3. **Accessory Recommendations**:\n   - Watches: A sleek black watch with a minimal design would complement this outfit well.\n   - Sunglasses: Classic aviator sunglasses in a neutral color would add a stylish touch.\n   - Bags: A black crossbody bag or a brown backpack would complete the look.\n   - Belts: A simple black or brown belt would tie the outfit together.\n   - Sneakers/casual shoes: Opt for black or gray sneakers for a casual and comfortable vibe.\n   - Hats/caps: A black or gray baseball cap would add a cool factor to the outfit.\n   - Minimal jewelry: Consider a simple bracelet or necklace for a subtle accessory.\n\n4. **Outfit Suggestions**: Pair a black t-shirt with gray jeans and brown sneakers for a laid-back yet stylish look. Add a black crossbody bag and a black watch to complete the outfit.\n\n5. **Social Media Caption**: \"Embracing neutrals and versatility with this unisex outfit. Mix and match for a look that suits everyone. #NeutralStyle #UnisexFashion\"",
+  "timestamp": "2025-06-04T22:44:38.482897"
+}

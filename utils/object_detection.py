@@ -3,6 +3,7 @@ import numpy as np
 from PIL import Image
 import torch
 from ultralytics import YOLO
+from .gender_detection import detect_gender
 
 # Load YOLOv8 model (you'll need: pip install ultralytics)
 try:
@@ -22,7 +23,7 @@ CLOTHING_CLASSES = {
 }
 
 def detect_clothing(image_path):
-    """Enhanced clothing detection using computer vision."""
+    """Enhanced clothing detection using YOLOv8 and fallback mechanisms."""
     try:
         image = cv2.imread(image_path)
         if image is None:
@@ -31,41 +32,35 @@ def detect_clothing(image_path):
         detected_items = []
         
         if model:
-            # Use YOLO for object detection
-            results = model(image)
-            
+            results = model.predict(image, conf=0.4, iou=0.5, stream=False)
             for result in results:
-                boxes = result.boxes
-                if boxes is not None:
-                    for box in boxes:
-                        confidence = float(box.conf[0])
-                        if confidence > 0.5:  # Confidence threshold
-                            class_id = int(box.cls[0])
-                            class_name = model.names[class_id].lower()
-                            
-                            # Map to clothing categories
-                            category = classify_clothing_item(class_name)
-                            if category:
-                                x1, y1, x2, y2 = map(int, box.xyxy[0])
-                                detected_items.append({
-                                    "item": category,
-                                    "confidence": round(confidence, 2),
-                                    "category": get_style_category(category),
-                                    "box": [x1, y1, x2, y2]
-                                })
-        
-        # Fallback: Color-based detection if YOLO fails
+                for box in result.boxes:
+                    conf = float(box.conf[0])
+                    if conf > 0.5:
+                        class_id = int(box.cls[0])
+                        class_name = model.names.get(class_id, '').lower()
+                        category = classify_clothing_item(class_name)
+                        if category:
+                            x1, y1, x2, y2 = map(int, box.xyxy[0])
+                            detected_items.append({
+                                "item": category,
+                                "confidence": round(conf, 2),
+                                "category": get_style_category(category),
+                                "box": [x1, y1, x2, y2]
+                            })
+
         if not detected_items:
             detected_items = color_based_detection(image)
-        
-        return detected_items[:5]  # Return top 5 detections
-        
+
+        return detected_items[:5]
+    
     except Exception as e:
         print(f"Detection error: {e}")
         return fallback_detection()
 
 def classify_clothing_item(detected_name):
-    """Map detected objects to clothing categories."""
+    """Map YOLO class names to clothing categories."""
+    detected_name = detected_name.strip().lower()
     for category, items in CLOTHING_CLASSES.items():
         if any(item in detected_name for item in items):
             return category
@@ -122,43 +117,36 @@ def fallback_detection():
     ]
 
 def estimate_size(image_path):
-    """Enhanced size estimation using proportional analysis."""
+    """Enhanced size estimation using edge profile and contour analysis."""
     try:
         image = cv2.imread(image_path)
         height, width = image.shape[:2]
         
-        # Detect body proportions
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        
-        # Simple shoulder detection using horizontal edge analysis
         edges = cv2.Canny(gray, 50, 150)
-        horizontal_edges = np.sum(edges, axis=1)
+
+        # Vertical profile analysis
+        edge_density = np.sum(edges, axis=1)
+        top_third = edge_density[:height // 3]
+        top_line_strength = np.max(top_third)
         
-        # Find shoulder line (typically in upper 1/3 of image)
-        upper_third = len(horizontal_edges) // 3
-        shoulder_candidates = horizontal_edges[:upper_third]
+        shoulder_width_ratio = top_line_strength / (width * 255)  # Normalize
         
-        if len(shoulder_candidates) > 0:
-            shoulder_width_ratio = np.max(shoulder_candidates) / width
-            
-            # Size estimation based on proportions
-            if shoulder_width_ratio > 0.4:
-                size = "L" if shoulder_width_ratio > 0.5 else "M"
-            else:
-                size = "S"
+        if shoulder_width_ratio > 0.3:
+            size = "L" if shoulder_width_ratio > 0.45 else "M"
         else:
-            size = "M"  # Default
-        
+            size = "S"
+
         return {
             "recommended_size": size,
-            "confidence": 0.75,
-            "reasoning": f"Based on shoulder-to-image ratio analysis and garment proportions",
+            "confidence": 0.78,
+            "reasoning": "Edge strength in upper body region indicates shoulder width and build",
             "measurements": {
-                "shoulder_ratio": round(shoulder_width_ratio if 'shoulder_width_ratio' in locals() else 0.35, 2),
+                "shoulder_ratio": round(shoulder_width_ratio, 2),
                 "fit_type": "regular"
             }
         }
-        
+
     except Exception as e:
         print(f"Size estimation error: {e}")
         return {

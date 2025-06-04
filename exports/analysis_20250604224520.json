@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250604224520",
+  "image_info": {
+    "name": "Bespoke-Designer-sport-jacket-1.jpg",
+    "size_bytes": 26186,
+    "dimensions": [
+      288,
+      512
+    ],
+    "processed_path": "static/temp_d75e9d56-7e5d-45d8-b1a8-52dfd4b764f1.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          14,
+          63,
+          83
+        ],
+        "hex": "#0e3f53",
+        "name": "navy",
+        "percentage": 55.0
+      },
+      {
+        "rgb": [
+          72,
+          147,
+          174
+        ],
+        "hex": "#4893ae",
+        "name": "gray",
+        "percentage": 36.61
+      },
+      {
+        "rgb": [
+          194,
+          172,
+          157
+        ],
+        "hex": "#c2ac9d",
+        "name": "khaki",
+        "percentage": 8.39
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "navy"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "S",
+    "confidence": 0.78,
+    "reasoning": "Edge strength in upper body region indicates shoulder width and build",
+    "measurements": {
+      "shoulder_ratio": 0.24,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 10.0,
+      "female_percentage": 0.0
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a navy top with gray pants and khaki accents, perfect for a casual yet stylish look.\n\n2. **Style Assessment**: This outfit is rated highly for its unisex styling principles, with a focus on comfort and versatility.\n\n3. **Accessory Recommendations**:\n   - A sleek silver watch\n   - Classic wayfarer sunglasses\n   - A stylish crossbody bag\n   - A neutral leather belt\n   - White sneakers\n   - A trendy baseball cap\n   - Minimalistic jewelry like a simple bracelet or necklace\n\n4. **Outfit Suggestions**:\n   - Pair the navy top with khaki chinos and white sneakers for a relaxed yet put-together vibe.\n   - Mix and match the gray pants with a white tee and a denim jacket for a cool, casual look.\n   - Layer the khaki accents with a black hoodie and sneakers for a sporty-chic ensemble.\n\n5. **Social Media Caption**: \"Elevate your everyday style with this effortlessly cool outfit. Neutral tones and versatile pieces make for a timeless look that's perfect for any occasion. #UnisexFashion #StyleForAll\"",
+  "timestamp": "2025-06-04T22:45:20.655146"
+}

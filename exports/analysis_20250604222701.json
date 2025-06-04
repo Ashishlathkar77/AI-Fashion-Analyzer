@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250604222701",
+  "image_info": {
+    "name": "th (2).jpg",
+    "size_bytes": 7548,
+    "dimensions": [
+      146,
+      219
+    ],
+    "processed_path": "static/temp_ef26d600-b341-471c-ac1e-33f36ceb79cf.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          217,
+          189,
+          190
+        ],
+        "hex": "#d9bdbe",
+        "name": "pink",
+        "percentage": 46.74
+      },
+      {
+        "rgb": [
+          164,
+          134,
+          131
+        ],
+        "hex": "#a48683",
+        "name": "gray",
+        "percentage": 37.11
+      },
+      {
+        "rgb": [
+          97,
+          85,
+          76
+        ],
+        "hex": "#61554c",
+        "name": "gray",
+        "percentage": 16.15
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "pink"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 92.57,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 0.0,
+      "female_percentage": 13.3
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a mix of pink and gray colors, with a relaxed fit in size L. The overall look is versatile and can be styled in various ways.\n\n2. **Style Assessment**: This outfit embodies a unisex aesthetic with its neutral color palette and regular fit. It can be easily worn by anyone looking for a comfortable and stylish ensemble.\n\n3. **Accessory Recommendations**:\n   - A sleek watch with a minimal design\n   - Classic sunglasses with a unisex frame\n   - A neutral backpack or crossbody bag for practicality\n   - A simple belt to add a touch of detail\n   - Casual sneakers or shoes for a laid-back vibe\n   - A stylish hat or cap for a finishing touch\n   - Minimal jewelry like a simple bracelet or necklace, if desired\n\n4. **Outfit Suggestions**: Pair the outfit with black jeans and white sneakers for a modern look. Alternatively, style it with gray pants and a denim jacket for a casual yet put-together outfit.\n\n5. **Social Media Caption**: \"Embracing neutral tones and effortless style with this versatile outfit. Perfect for any day and any gender. #UnisexFashion #NeutralStyle\"",
+  "timestamp": "2025-06-04T22:27:01.279875"
+}

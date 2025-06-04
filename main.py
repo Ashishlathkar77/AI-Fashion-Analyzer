@@ -4,6 +4,7 @@ from fastapi.responses import FileResponse
 from utils.image_utils import validate_and_process_image
 from utils.color_analysis import get_dominant_colors
 from utils.object_detection import detect_clothing, estimate_size
+from utils.gender_detection import detect_gender
 from utils.langchain_utils import get_fashion_advice
 import json
 from datetime import datetime
@@ -25,11 +26,12 @@ async def analyze(file: UploadFile = File(...)):
         # Process image
         path, size, file_size = validate_and_process_image(file)
         
-        # Enhanced analysis
+        # Enhanced analysis with gender detection
         colors = get_dominant_colors(path)
         size_info = estimate_size(path)
         detected = detect_clothing(path)
-        gpt_insights = get_fashion_advice(colors, size_info, detected)
+        gender_info = detect_gender(path, detected)
+        gpt_insights = get_fashion_advice(colors, size_info, detected, gender_info)
         
         # Generate comprehensive report
         report = {
@@ -51,6 +53,7 @@ async def analyze(file: UploadFile = File(...)):
                 "confidence_avg": round(sum(item['confidence'] for item in detected) / len(detected), 2) if detected else 0
             },
             "size_analysis": size_info,
+            "gender_detection": gender_info,
             "ai_recommendations": gpt_insights,
             "timestamp": datetime.now().isoformat()
         }
@@ -71,6 +74,7 @@ async def analyze(file: UploadFile = File(...)):
                 "colors": len(colors),
                 "items": len(detected),
                 "size": size_info["recommended_size"],
+                "gender": gender_info["gender"],
                 "confidence": report["garment_detection"]["confidence_avg"]
             }
         }

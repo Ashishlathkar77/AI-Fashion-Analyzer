@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250604224502",
+  "image_info": {
+    "name": "current.png",
+    "size_bytes": 15322,
+    "dimensions": [
+      256,
+      325
+    ],
+    "processed_path": "static/temp_849b08f7-9414-4ef1-a9e8-d302478c3f1c.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          73,
+          84,
+          61
+        ],
+        "hex": "#49543d",
+        "name": "olive",
+        "percentage": 57.6
+      },
+      {
+        "rgb": [
+          177,
+          127,
+          122
+        ],
+        "hex": "#b17f7a",
+        "name": "gray",
+        "percentage": 27.13
+      },
+      {
+        "rgb": [
+          194,
+          36,
+          69
+        ],
+        "hex": "#c22445",
+        "name": "brown",
+        "percentage": 15.27
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "olive"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "S",
+    "confidence": 0.78,
+    "reasoning": "Edge strength in upper body region indicates shoulder width and build",
+    "measurements": {
+      "shoulder_ratio": 0.2,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "female",
+    "confidence": 0.9,
+    "reasoning": "Female indicators: 43.3%",
+    "scores": {
+      "male_percentage": 0.0,
+      "female_percentage": 43.3
+    }
+  },
+  "ai_recommendations": "1. **Product Description**:\n   - Olive green blouse with a subtle floral pattern, featuring a feminine V-neck and flowy silhouette.\n   - Gray tailored trousers with a slim fit, adding a touch of sophistication to the outfit.\n   - Brown leather ankle boots with a stylish buckle detail, perfect for a chic and polished look.\n\n2. **Style Assessment**:\n   - The outfit is a sophisticated blend of feminine and professional elements. To enhance the feminine aspect, consider adding more delicate and elegant pieces such as dainty jewelry or a statement handbag.\n\n3. **Accessory Recommendations**:\n   - Jewelry: Opt for a delicate gold necklace, hoop earrings, and a stack of thin bracelets for a feminine touch.\n   - Handbags: Choose a structured brown leather handbag or a crossbody purse in a complementary color.\n   - Hair accessories: Add a floral hair clip or a velvet headband for a feminine flair.\n   - Shoes: Consider nude heels or ballet flats for a more feminine and polished look.\n   - Makeup: Soft brown eyeshadow and a nude lip color would complement the olive, gray, and brown tones of the outfit.\n\n4. **Outfit Suggestions**:\n   - For a more feminine look, pair the olive blouse with a high-waisted floral skirt and strappy sandals.\n   - Swap the trousers for a tailored pencil skirt in a neutral color for a sophisticated and feminine ensemble.\n   - Layer a lightweight gray cardigan over the blouse for a cozy and feminine touch.\n\n5. **Social Media Caption**:\n   \"Embracing the essence of femininity with a touch of sophistication in this chic ensemble. #FeminineFashion #EmpoweredStyle\"",
+  "timestamp": "2025-06-04T22:45:02.236786"
+}

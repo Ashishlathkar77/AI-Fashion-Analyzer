@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250604223109",
+  "image_info": {
+    "name": "HM-Men-2016-Spring-Summer-Look-Book-001-800x1132.jpg",
+    "size_bytes": 18423,
+    "dimensions": [
+      362,
+      512
+    ],
+    "processed_path": "static/temp_3d84d362-20f8-4834-8929-edd6c09a2de5.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          125,
+          83,
+          52
+        ],
+        "hex": "#7d5334",
+        "name": "brown",
+        "percentage": 53.28
+      },
+      {
+        "rgb": [
+          29,
+          23,
+          21
+        ],
+        "hex": "#1d1715",
+        "name": "black",
+        "percentage": 24.28
+      },
+      {
+        "rgb": [
+          144,
+          127,
+          118
+        ],
+        "hex": "#907f76",
+        "name": "gray",
+        "percentage": 22.44
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "brown"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 24.65,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 0.0,
+      "female_percentage": 13.3
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a mix of brown, black, and gray colors in a size L with a regular fit. It includes versatile pieces suitable for anyone looking for a stylish and comfortable look.\n\n2. **Style Assessment**: This outfit is rated highly for its unisex styling principles, as the colors and fit are suitable for all genders. The neutral tones and regular fit make it easy to mix and match with other wardrobe staples.\n\n3. **Accessory Recommendations**: \n   - A stylish watch with a leather or metal band\n   - Classic black sunglasses\n   - A sleek black crossbody bag\n   - A simple leather belt\n   - Casual sneakers in a neutral color\n   - A trendy cap or beanie\n   - Minimal jewelry like a simple bracelet or necklace\n\n4. **Outfit Suggestions**: Pair the outfit with black jeans or gray trousers for a sleek look. Add a denim jacket or a black blazer for layering options. Finish off with white sneakers for a casual vibe.\n\n5. **Social Media Caption**: \"Elevate your everyday style with this versatile outfit. Neutral tones and timeless accessories make for a chic and effortless look. #UnisexFashion #StyleForAll\"",
+  "timestamp": "2025-06-04T22:31:09.074867"
+}

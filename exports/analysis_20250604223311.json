@@ -1,0 +1,85 @@
+{
+  "analysis_id": "20250604223311",
+  "image_info": {
+    "name": "14894852471957439356.jpg",
+    "size_bytes": 32872,
+    "dimensions": [
+      384,
+      512
+    ],
+    "processed_path": "static/temp_cbc85de3-b3bc-45fe-aaba-1d8f408023b2.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          235,
+          233,
+          231
+        ],
+        "hex": "#ebe9e7",
+        "name": "beige",
+        "percentage": 60.27
+      },
+      {
+        "rgb": [
+          66,
+          35,
+          31
+        ],
+        "hex": "#42231f",
+        "name": "burgundy",
+        "percentage": 21.46
+      },
+      {
+        "rgb": [
+          175,
+          124,
+          111
+        ],
+        "hex": "#af7c6f",
+        "name": "gray",
+        "percentage": 18.28
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "beige"
+  },
+  "garment_detection": {
+    "detected_items": [
+      {
+        "item": "shirt",
+        "confidence": 0.7,
+        "category": "formal",
+        "box": [
+          102,
+          132,
+          297,
+          491
+        ]
+      }
+    ],
+    "item_count": 1,
+    "confidence_avg": 0.7
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 44.49,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 23.3,
+      "female_percentage": 26.7
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a beige shirt with hints of burgundy and gray, creating a versatile and stylish look suitable for any individual.\n\n2. **Style Assessment**: This outfit is rated highly in terms of unisex styling principles, as the shirt's neutral colors and classic design make it suitable for anyone looking for a timeless and effortless look.\n\n3. **Accessory Recommendations**:\n   - A sleek watch with a neutral-colored strap\n   - Classic aviator sunglasses\n   - A minimalist crossbody bag\n   - A simple leather belt\n   - Clean and comfortable sneakers\n   - A stylish baseball cap\n   - Minimal jewelry like a simple bracelet or necklace\n\n4. **Outfit Suggestions**: Pair the beige shirt with dark denim jeans and white sneakers for a casual yet put-together look. Add a crossbody bag and a baseball cap for a touch of urban flair.\n\n5. **Social Media Caption**: \"Elevate your everyday style with this versatile beige shirt paired with classic accessories. Embrace effortless sophistication with this gender-neutral look. #FashionForward #UnisexStyle\"",
+  "timestamp": "2025-06-04T22:33:11.931129"
+}

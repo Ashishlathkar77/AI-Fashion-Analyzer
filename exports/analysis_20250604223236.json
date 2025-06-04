@@ -1,0 +1,107 @@
+{
+  "analysis_id": "20250604223236",
+  "image_info": {
+    "name": "1671765180764-14505a1b3b5944698dcd57fd9f65bb32-goods_enhanced.jpeg",
+    "size_bytes": 52927,
+    "dimensions": [
+      512,
+      512
+    ],
+    "processed_path": "static/temp_1e004842-6b01-4598-b50c-c69aac889b86.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          137,
+          61,
+          49
+        ],
+        "hex": "#893d31",
+        "name": "brown",
+        "percentage": 39.26
+      },
+      {
+        "rgb": [
+          171,
+          134,
+          113
+        ],
+        "hex": "#ab8671",
+        "name": "gray",
+        "percentage": 32.54
+      },
+      {
+        "rgb": [
+          210,
+          190,
+          178
+        ],
+        "hex": "#d2beb2",
+        "name": "pink",
+        "percentage": 28.2
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "brown"
+  },
+  "garment_detection": {
+    "detected_items": [
+      {
+        "item": "shirt",
+        "confidence": 0.7,
+        "category": "formal",
+        "box": [
+          178,
+          398,
+          247,
+          497
+        ]
+      },
+      {
+        "item": "shirt",
+        "confidence": 0.7,
+        "category": "formal",
+        "box": [
+          218,
+          247,
+          289,
+          360
+        ]
+      },
+      {
+        "item": "jacket",
+        "confidence": 0.7,
+        "category": "versatile",
+        "box": [
+          103,
+          118,
+          221,
+          228
+        ]
+      }
+    ],
+    "item_count": 3,
+    "confidence_avg": 0.7
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 47.31,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 32.2,
+      "female_percentage": 14.2
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a brown and gray shirt paired with a stylish jacket, perfect for a casual yet put-together look.\n\n2. **Style Assessment**: This outfit is rated highly for its unisex styling principles, with the neutral colors and classic shirt and jacket combo appealing to a wide range of individuals.\n\n3. **Accessory Recommendations**:\n- A sleek watch with a leather or metal band\n- Classic aviator sunglasses\n- A versatile crossbody bag or backpack\n- A simple leather belt\n- Comfortable sneakers or casual shoes\n- A trendy cap or hat\n- Minimal jewelry such as a simple chain necklace or bracelet\n\n4. **Outfit Suggestions**: Pair the shirt and jacket with jeans and sneakers for a laid-back vibe, or dress it up with tailored trousers and loafers. This versatile outfit can easily transition from day to night.\n\n5. **Social Media Caption**: \"Embracing classic neutrals and effortless style with this versatile outfit. #UnisexFashion #NeutralStyle\"",
+  "timestamp": "2025-06-04T22:32:36.634170"
+}

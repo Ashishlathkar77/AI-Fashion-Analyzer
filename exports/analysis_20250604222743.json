@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250604222743",
+  "image_info": {
+    "name": "current.png",
+    "size_bytes": 15322,
+    "dimensions": [
+      256,
+      325
+    ],
+    "processed_path": "static/temp_39e1a7f3-11c7-49e4-a034-8d6b989c4a40.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          73,
+          84,
+          61
+        ],
+        "hex": "#49543d",
+        "name": "olive",
+        "percentage": 57.6
+      },
+      {
+        "rgb": [
+          177,
+          127,
+          122
+        ],
+        "hex": "#b17f7a",
+        "name": "gray",
+        "percentage": 27.13
+      },
+      {
+        "rgb": [
+          194,
+          36,
+          69
+        ],
+        "hex": "#c22445",
+        "name": "brown",
+        "percentage": 15.27
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "olive"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 50.8,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "female",
+    "confidence": 0.9,
+    "reasoning": "Female indicators: 43.3%",
+    "scores": {
+      "male_percentage": 0.0,
+      "female_percentage": 43.3
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: The outfit consists of an olive green blouse with a gray cardigan and brown trousers. The blouse has a feminine silhouette with delicate ruffles and a flattering neckline. The cardigan adds a cozy and stylish layer, while the trousers provide a polished and professional look.\n\n2. **Style Assessment**: This outfit is a great mix of casual and chic elements. To enhance the feminine aspect, consider adding more form-fitting pieces to highlight the female silhouette. Additionally, incorporating some trendy accessories can elevate the overall look.\n\n3. **Accessory Recommendations**:\n   - Jewelry: A dainty gold necklace or hoop earrings would complement the colors of the outfit.\n   - Handbags and purses: A structured brown leather handbag would tie the look together.\n   - Scarves: A silk scarf in a floral print could add a touch of femininity.\n   - Hair accessories: A sleek hair clip or headband could add a stylish touch.\n   - Belts: A thin brown belt could cinch the waist and enhance the feminine shape.\n   - Shoes: A pair of brown heeled ankle boots would complete the outfit perfectly.\n   - Makeup: Soft brown and olive eyeshadows with a nude lip color would complement the outfit's color scheme.\n\n4. **Outfit Suggestions**:\n   - For a more feminine look, consider swapping the trousers for a high-waisted skirt in a matching olive green or brown color. Pair it with a tucked-in blouse and a statement belt for a stylish ensemble.\n   - Add a faux fur stole or a statement coat for a more glamorous touch to the outfit.\n\n5. **Social Media Caption**: \"Embracing the elegance of olive green and brown hues in a chic and feminine ensemble. #WomenEmpowerment #FashionForward\"",
+  "timestamp": "2025-06-04T22:27:43.545210"
+}
