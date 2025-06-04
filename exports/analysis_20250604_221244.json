@@ -1,0 +1,57 @@
+{
+    "image_name": "th (2).jpg",
+    "file_size": 7548,
+    "image_dimensions": [
+        146,
+        219
+    ],
+    "colors": [],
+    "size_estimation": {
+        "recommended_size": "M",
+        "reasoning": "Width ratio: 0.65, Height ratio: 0.57",
+        "measurements": {
+            "width_ratio": 0.65,
+            "height_ratio": 0.57
+        }
+    },
+    "detected_items": [
+        {
+            "item": "pants",
+            "confidence": 0.95,
+            "category": "bottom",
+            "box": [
+                40,
+                93,
+                68,
+                107
+            ],
+            "area_ratio": 0.182
+        },
+        {
+            "item": "pants",
+            "confidence": 0.95,
+            "category": "bottom",
+            "box": [
+                84,
+                0,
+                62,
+                219
+            ],
+            "area_ratio": 0.269
+        },
+        {
+            "item": "pants",
+            "confidence": 0.95,
+            "category": "bottom",
+            "box": [
+                0,
+                0,
+                76,
+                219
+            ],
+            "area_ratio": 0.203
+        }
+    ],
+    "gpt_advice": "Unable to generate insights - insufficient clothing detection",
+    "analysis_timestamp": "2025-06-04T22:12:44.743131"
+}

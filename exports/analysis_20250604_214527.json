@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-06-04T21:45:27.180663",
+  "image_info": {
+    "name": "FullSizeRender (5).jpg",
+    "size_bytes": 19285,
+    "dimensions": [
+      384,
+      512
+    ],
+    "processed_path": "static/temp_7726094e-8ba9-4857-a786-d70295e0ac40.jpg"
+  },
+  "analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          201,
+          203,
+          198
+        ],
+        "hex": "#c9cbc6",
+        "name": "silver",
+        "percentage": 2.56
+      }
+    ],
+    "size_estimation": {
+      "recommended_size": "XL",
+      "confidence": 0.83,
+      "reasoning": "Based on garment proportions and fit analysis",
+      "size_range": "XL to XXL"
+    },
+    "detected_items": [
+      {
+        "item": "jeans",
+        "category": "bottoms",
+        "confidence": 0.82,
+        "box": [
+          99,
+          289,
+          256,
+          445
+        ]
+      },
+      {
+        "item": "skirt",
+        "category": "bottoms",
+        "confidence": 0.75,
+        "box": [
+          143,
+          218,
+          244,
+          417
+        ]
+      },
+      {
+        "item": "t-shirt",
+        "category": "tops",
+        "confidence": 0.77,
+        "box": [
+          142,
+          73,
+          248,
+          287
+        ]
+      }
+    ],
+    "color_count": 1
+  },
+  "ai_insights": {
+    "product_description": "This clothing item is a versatile piece that can be styled in multiple ways. The silver color gives it a modern and chic look, perfect for adding a touch of sophistication to any outfit. The recommended size is XL, with a confidence level of 83%, ensuring a comfortable and flattering fit. Whether you choose to wear it as jeans, a skirt, or a t-shirt, this item is a must-have for your wardrobe.",
+    "outfit_suggestion": "For a casual yet stylish look, pair these silver jeans with a crisp white t-shirt and sneakers for a relaxed weekend outfit. To dress it up, opt for the silver skirt with a black blouse and heels for a sleek evening ensemble. You can also mix and match these pieces with other items in your wardrobe to create endless outfit possibilities.",
+    "social_caption": "Elevate your wardrobe with this silver clothing item that exudes modern elegance. Mix and match to create your own unique style #FashionForward #SilverStyle #VersatileChic",
+    "full_response": "1. PRODUCT_DESCRIPTION:\nThis clothing item is a versatile piece that can be styled in multiple ways. The silver color gives it a modern and chic look, perfect for adding a touch of sophistication to any outfit. The recommended size is XL, with a confidence level of 83%, ensuring a comfortable and flattering fit. Whether you choose to wear it as jeans, a skirt, or a t-shirt, this item is a must-have for your wardrobe.\n\n2. OUTFIT_SUGGESTION:\nFor a casual yet stylish look, pair these silver jeans with a crisp white t-shirt and sneakers for a relaxed weekend outfit. To dress it up, opt for the silver skirt with a black blouse and heels for a sleek evening ensemble. You can also mix and match these pieces with other items in your wardrobe to create endless outfit possibilities.\n\n3. SOCIAL_CAPTION:\nElevate your wardrobe with this silver clothing item that exudes modern elegance. Mix and match to create your own unique style #FashionForward #SilverStyle #VersatileChic"
+  },
+  "summary": {
+    "primary_colors": [
+      "silver"
+    ],
+    "main_items": [
+      "jeans",
+      "skirt",
+      "t-shirt"
+    ],
+    "confidence_avg": 0.78
+  }
+}

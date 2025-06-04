@@ -1,0 +1,89 @@
+{
+    "image_name": "th (2).jpg",
+    "file_size": 7548,
+    "image_dimensions": [
+        146,
+        219
+    ],
+    "colors": [
+        {
+            "rgb": [
+                182,
+                183,
+                188
+            ],
+            "hex": "#b6b7bc",
+            "name": "silver",
+            "percentage": 0.28
+        },
+        {
+            "rgb": [
+                181,
+                182,
+                187
+            ],
+            "hex": "#b5b6bb",
+            "name": "silver",
+            "percentage": 0.28
+        },
+        {
+            "rgb": [
+                249,
+                248,
+                243
+            ],
+            "hex": "#f9f8f3",
+            "name": "white",
+            "percentage": 0.27
+        },
+        {
+            "rgb": [
+                250,
+                249,
+                244
+            ],
+            "hex": "#faf9f4",
+            "name": "white",
+            "percentage": 0.25
+        },
+        {
+            "rgb": [
+                128,
+                123,
+                119
+            ],
+            "hex": "#807b77",
+            "name": "gray",
+            "percentage": 0.25
+        }
+    ],
+    "size_estimation": {
+        "recommended_size": "M",
+        "reasoning": "Based on shirt-to-jeans ratio and shoulder width"
+    },
+    "detected_items": [
+        {
+            "item": "shirt",
+            "confidence": 0.92,
+            "category": "casual",
+            "box": [
+                50,
+                60,
+                100,
+                140
+            ]
+        },
+        {
+            "item": "jeans",
+            "confidence": 0.88,
+            "category": "casual",
+            "box": [
+                55,
+                150,
+                100,
+                300
+            ]
+        }
+    ],
+    "gpt_advice": "Product Description:\nThis casual outfit features a silver shirt with a white jeans combination, perfect for a stylish and comfortable look. The colors of silver, white, and gray add a touch of elegance to your wardrobe. The recommended size for this outfit is M, based on the shirt-to-jeans ratio and shoulder width.\n\nOutfit Suggestion:\nFor a chic and effortless look, pair the silver shirt with the white jeans. Complete the outfit with a pair of silver sneakers or sandals for a modern twist. Add some silver or white accessories to complement the color palette.\n\nSocial Media Caption:\n\"Channeling casual chic vibes with this silver and white outfit combo. Perfect for a day out or a casual hangout with friends. #CasualStyle #SilverAndWhite #FashionGoals\""
+}

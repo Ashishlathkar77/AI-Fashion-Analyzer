@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-06-04T21:46:08.944362",
+  "image_info": {
+    "name": "img_ashish.jpg",
+    "size_bytes": 47073,
+    "dimensions": [
+      512,
+      512
+    ],
+    "processed_path": "static/temp_d0e416d6-0f53-4192-a6ed-e6342899d541.jpg"
+  },
+  "analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          2,
+          20,
+          34
+        ],
+        "hex": "#021422",
+        "name": "black",
+        "percentage": 0.38
+      }
+    ],
+    "size_estimation": {
+      "recommended_size": "L",
+      "confidence": 0.81,
+      "reasoning": "Estimated from shoulder width and body measurements",
+      "size_range": "L to XL"
+    },
+    "detected_items": [
+      {
+        "item": "t-shirt",
+        "category": "tops",
+        "confidence": 0.8,
+        "box": [
+          196,
+          125,
+          357,
+          280
+        ]
+      },
+      {
+        "item": "jeans",
+        "category": "bottoms",
+        "confidence": 0.82,
+        "box": [
+          116,
+          306,
+          309,
+          392
+        ]
+      }
+    ],
+    "color_count": 1
+  },
+  "ai_insights": {
+    "product_description": "This t-shirt is a versatile and stylish piece in a sleek black color, perfect for adding a touch of sophistication to any outfit. The size estimation suggests it falls within the range of L to XL, ensuring a comfortable and flattering fit. Paired with the included jeans, this ensemble exudes a casual yet put-together vibe.",
+    "outfit_suggestion": "For a laid-back daytime look, pair this t-shirt and jeans combo with a trendy pair of white sneakers and a denim jacket thrown over the shoulders. Accessorize with some minimalist jewelry and a stylish backpack to complete the ensemble. This outfit is perfect for running errands or grabbing coffee with friends.",
+    "social_caption": "Elevate your casual style with this classic black t-shirt and jeans combo. Effortlessly chic and comfortable for any day out. #CasualChic #FashionForward #EffortlessStyle",
+    "full_response": "1. PRODUCT_DESCRIPTION:\nThis t-shirt is a versatile and stylish piece in a sleek black color, perfect for adding a touch of sophistication to any outfit. The size estimation suggests it falls within the range of L to XL, ensuring a comfortable and flattering fit. Paired with the included jeans, this ensemble exudes a casual yet put-together vibe.\n\n2. OUTFIT_SUGGESTION:\nFor a laid-back daytime look, pair this t-shirt and jeans combo with a trendy pair of white sneakers and a denim jacket thrown over the shoulders. Accessorize with some minimalist jewelry and a stylish backpack to complete the ensemble. This outfit is perfect for running errands or grabbing coffee with friends.\n\n3. SOCIAL_CAPTION:\nElevate your casual style with this classic black t-shirt and jeans combo. Effortlessly chic and comfortable for any day out. #CasualChic #FashionForward #EffortlessStyle"
+  },
+  "summary": {
+    "primary_colors": [
+      "black"
+    ],
+    "main_items": [
+      "t-shirt",
+      "jeans"
+    ],
+    "confidence_avg": 0.81
+  }
+}

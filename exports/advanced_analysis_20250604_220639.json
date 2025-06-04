@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-04T22:06:39.984494",
+    "analysis_version": "2.0.0",
+    "processing_time": "realtime"
+  },
+  "image_info": {
+    "filename": "th (2).jpg",
+    "original_size": [
+      146,
+      219
+    ],
+    "processed_size": [
+      146,
+      219
+    ],
+    "file_size_bytes": 10657,
+    "path": "static/temp_3896ad48-7925-42a6-9c6a-cfa736d2354b.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          

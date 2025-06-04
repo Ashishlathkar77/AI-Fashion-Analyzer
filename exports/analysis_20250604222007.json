@@ -1,0 +1,64 @@
+{
+  "analysis_id": "20250604222007",
+  "image_info": {
+    "name": "FullSizeRender (5).jpg",
+    "size_bytes": 14368,
+    "dimensions": [
+      384,
+      512
+    ],
+    "processed_path": "static/temp_22667fa8-ad1a-4d7d-bfce-bffb1fc047ab.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          188,
+          187,
+          177
+        ],
+        "hex": "#bcbbb1",
+        "name": "mint",
+        "percentage": 66.77
+      },
+      {
+        "rgb": [
+          123,
+          115,
+          100
+        ],
+        "hex": "#7b7364",
+        "name": "gray",
+        "percentage": 16.75
+      },
+      {
+        "rgb": [
+          225,
+          228,
+          227
+        ],
+        "hex": "#e1e4e3",
+        "name": "beige",
+        "percentage": 16.48
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "mint"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 14.61,
+      "fit_type": "regular"
+    }
+  },
+  "ai_recommendations": "Product Description:\nElevate your wardrobe with this chic and versatile mint, gray, and beige color block top. Made with a flattering regular fit and crafted from high-quality materials, this top is perfect for any occasion.\n\nOutfit Suggestion:\nPair this color block top with high-waisted gray trousers and beige pointed-toe pumps for a sophisticated and stylish look. Add a mint statement necklace for a pop of color and elegance.\n\nSocial Media Caption:\n\"Stay classy and chic in this mint, gray, and beige color block top. Perfect for work or play! #FashionForward #ColorBlockStyle\"",
+  "timestamp": "2025-06-04T22:20:07.307248"
+}

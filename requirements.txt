@@ -1,0 +1,26 @@
+# Web Framework & Server
+fastapi
+uvicorn
+
+# Image Processing
+opencv-python
+Pillow
+python-multipart
+
+# Object Detection
+ultralytics  # For YOLOv8
+
+# Color Analysis
+scikit-learn
+matplotlib  # For color map and visualization
+
+# LLM & LangChain Integration
+openai
+langchain
+langchain_community  # For community tools and integrations
+python-dotenv  # For loading API keys from .env
+
+# Utility
+numpy
+requests
+tqdm

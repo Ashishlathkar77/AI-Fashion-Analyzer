@@ -1,0 +1,64 @@
+{
+  "analysis_id": "20250604222127",
+  "image_info": {
+    "name": "img_ashish.jpg",
+    "size_bytes": 36079,
+    "dimensions": [
+      512,
+      512
+    ],
+    "processed_path": "static/temp_ad4fcd8a-5f13-4fb4-a0dd-53dbcb524c5f.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          8,
+          23,
+          36
+        ],
+        "hex": "#081724",
+        "name": "black",
+        "percentage": 50.84
+      },
+      {
+        "rgb": [
+          158,
+          193,
+          212
+        ],
+        "hex": "#9ec1d4",
+        "name": "mint",
+        "percentage": 30.85
+      },
+      {
+        "rgb": [
+          129,
+          114,
+          101
+        ],
+        "hex": "#817265",
+        "name": "gray",
+        "percentage": 18.31
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "black"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 72.22,
+      "fit_type": "regular"
+    }
+  },
+  "ai_recommendations": "Product Description:\nStay stylish and sophisticated in this trendy outfit featuring a black top, mint pants, and gray accessories. The perfect combination of classic and modern style.\n\nOutfit Suggestion:\nPair a black top with mint pants for a chic and elegant look. Add some gray accessories like a belt or shoes to complete the outfit. Don't forget to accessorize with silver jewelry for a touch of glamour.\n\nSocial Media Caption:\nFeeling classy in black, mint, and gray! \ud83d\udcab #FashionForward #OOTD #ClassicMeetsModern",
+  "timestamp": "2025-06-04T22:21:27.578166"
+}

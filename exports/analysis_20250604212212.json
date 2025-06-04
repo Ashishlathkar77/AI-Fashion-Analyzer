@@ -1,0 +1,89 @@
+{
+    "image_name": "teen-girl-fashion-2019-teen-fashion-2019-clothes-for-teenage-girl-2019-dress-for-teenager-2019-junior-dresses-2019-oversize-style-768x960.jpg",
+    "file_size": 27020,
+    "image_dimensions": [
+        410,
+        512
+    ],
+    "colors": [
+        {
+            "rgb": [
+                40,
+                44,
+                43
+            ],
+            "hex": "#282c2b",
+            "name": "black",
+            "percentage": 0.3
+        },
+        {
+            "rgb": [
+                44,
+                48,
+                47
+            ],
+            "hex": "#2c302f",
+            "name": "black",
+            "percentage": 0.23
+        },
+        {
+            "rgb": [
+                39,
+                43,
+                42
+            ],
+            "hex": "#272b2a",
+            "name": "black",
+            "percentage": 0.22
+        },
+        {
+            "rgb": [
+                37,
+                41,
+                40
+            ],
+            "hex": "#252928",
+            "name": "black",
+            "percentage": 0.22
+        },
+        {
+            "rgb": [
+                46,
+                50,
+                49
+            ],
+            "hex": "#2e3231",
+            "name": "black",
+            "percentage": 0.21
+        }
+    ],
+    "size_estimation": {
+        "recommended_size": "M",
+        "reasoning": "Based on shirt-to-jeans ratio and shoulder width"
+    },
+    "detected_items": [
+        {
+            "item": "shirt",
+            "confidence": 0.92,
+            "category": "casual",
+            "box": [
+                50,
+                60,
+                100,
+                140
+            ]
+        },
+        {
+            "item": "jeans",
+            "confidence": 0.88,
+            "category": "casual",
+            "box": [
+                55,
+                150,
+                100,
+                300
+            ]
+        }
+    ],
+    "gpt_advice": "Product Description:\nStay effortlessly stylish in this casual black outfit featuring a black shirt and black jeans. The perfect combination for a sleek and versatile look.\n\nOutfit Suggestion:\nPair the black shirt and jeans with some black sneakers for a monochromatic chic look. Add a statement accessory like a watch or bracelet to elevate the outfit.\n\nSocial Media Caption:\nFeeling sleek and stylish in my all-black outfit today! #MonochromeMagic #CasualChic #OOTD"
+}

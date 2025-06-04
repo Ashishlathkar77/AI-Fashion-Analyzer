@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-06-04T21:44:59.139829",
+  "image_info": {
+    "name": "th (2).jpg",
+    "size_bytes": 9744,
+    "dimensions": [
+      146,
+      219
+    ],
+    "processed_path": "static/temp_912b0d27-ed5e-47cd-993b-5c4663590b2a.jpg"
+  },
+  "analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          123,
+          118,
+          114
+        ],
+        "hex": "#7b7672",
+        "name": "gray",
+        "percentage": 0.27
+      },
+      {
+        "rgb": [
+          181,
+          182,
+          187
+        ],
+        "hex": "#b5b6bb",
+        "name": "silver",
+        "percentage": 0.25
+      }
+    ],
+    "size_estimation": {
+      "recommended_size": "M",
+      "confidence": 0.62,
+      "reasoning": "Calculated using standard sizing algorithms",
+      "size_range": "M to L"
+    },
+    "detected_items": [
+      {
+        "item": "shirt",
+        "category": "tops",
+        "confidence": 0.76,
+        "box": [
+          42,
+          65,
+          92,
+          97
+        ]
+      },
+      {
+        "item": "jeans",
+        "category": "bottoms",
+        "confidence": 0.88,
+        "box": [
+          46,
+          116,
+          88,
+          169
+        ]
+      }
+    ],
+    "color_count": 2
+  },
+  "ai_insights": {
+    "product_description": "",
+    "outfit_suggestion": "",
+    "social_caption": "",
+    "full_response": "1. PRODUCT_DESCRIPTION: This stylish outfit features a gray shirt and a pair of silver jeans. The shirt has a classic and versatile gray hue, while the silver jeans add a touch of modern flair. Both pieces are crafted with quality materials for a comfortable and fashionable look.\n\n2. OUTFIT_SUGGESTION: For a chic and effortless ensemble, pair this shirt and jeans combo with white sneakers and a statement belt. Tuck in the shirt for a polished appearance or leave it untucked for a casual vibe. Add some delicate jewelry and a stylish watch to complete the look.\n\n3. SOCIAL_CAPTION: Elevate your everyday style with this gray shirt and silver jeans combo. Perfect for a casual day out or a relaxed weekend look. #FashionForward #StylishEssentials #OOTD \ud83d\udda4\u2728"
+  },
+  "summary": {
+    "primary_colors": [
+      "gray",
+      "silver"
+    ],
+    "main_items": [
+      "shirt",
+      "jeans"
+    ],
+    "confidence_avg": 0.82
+  }
+}

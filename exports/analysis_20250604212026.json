@@ -1,0 +1,89 @@
+{
+    "image_name": "FullSizeRender (5).jpg",
+    "file_size": 14368,
+    "image_dimensions": [
+        384,
+        512
+    ],
+    "colors": [
+        {
+            "rgb": [
+                201,
+                203,
+                198
+            ],
+            "hex": "#c9cbc6",
+            "name": "silver",
+            "percentage": 2.03
+        },
+        {
+            "rgb": [
+                200,
+                202,
+                197
+            ],
+            "hex": "#c8cac5",
+            "name": "silver",
+            "percentage": 1.37
+        },
+        {
+            "rgb": [
+                197,
+                198,
+                192
+            ],
+            "hex": "#c5c6c0",
+            "name": "silver",
+            "percentage": 1.36
+        },
+        {
+            "rgb": [
+                199,
+                201,
+                196
+            ],
+            "hex": "#c7c9c4",
+            "name": "silver",
+            "percentage": 1.18
+        },
+        {
+            "rgb": [
+                202,
+                204,
+                199
+            ],
+            "hex": "#caccc7",
+            "name": "silver",
+            "percentage": 1.05
+        }
+    ],
+    "size_estimation": {
+        "recommended_size": "M",
+        "reasoning": "Based on shirt-to-jeans ratio and shoulder width"
+    },
+    "detected_items": [
+        {
+            "item": "shirt",
+            "confidence": 0.92,
+            "category": "casual",
+            "box": [
+                50,
+                60,
+                100,
+                140
+            ]
+        },
+        {
+            "item": "jeans",
+            "confidence": 0.88,
+            "category": "casual",
+            "box": [
+                55,
+                150,
+                100,
+                300
+            ]
+        }
+    ],
+    "gpt_advice": "Product Description:\nThis stylish outfit consists of a silver shirt and a pair of silver jeans. The colors of the clothes complement each other perfectly, creating a sleek and modern look. The recommended size for this outfit is Medium, based on the shirt-to-jeans ratio and shoulder width.\n\nOutfit Suggestion:\nFor a casual yet trendy look, pair the silver shirt with the silver jeans. The monochromatic outfit will make a statement while keeping you comfortable and stylish. Add a pair of white sneakers to complete the look.\n\nSocial Media Caption:\n\"Silver vibes all the way! Loving this monochromatic outfit featuring a silver shirt and jeans. #FashionForward #MonochromeMagic \u2728\ud83d\udc56\""
+}

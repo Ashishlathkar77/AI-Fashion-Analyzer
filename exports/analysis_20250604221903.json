@@ -1,0 +1,64 @@
+{
+  "analysis_id": "20250604221903",
+  "image_info": {
+    "name": "th (2).jpg",
+    "size_bytes": 7548,
+    "dimensions": [
+      146,
+      219
+    ],
+    "processed_path": "static/temp_31e2283b-d800-4d1d-b653-8d373ddae4b2.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          217,
+          189,
+          190
+        ],
+        "hex": "#d9bdbe",
+        "name": "pink",
+        "percentage": 46.74
+      },
+      {
+        "rgb": [
+          164,
+          134,
+          131
+        ],
+        "hex": "#a48683",
+        "name": "gray",
+        "percentage": 37.11
+      },
+      {
+        "rgb": [
+          97,
+          85,
+          76
+        ],
+        "hex": "#61554c",
+        "name": "gray",
+        "percentage": 16.15
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "pink"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 92.57,
+      "fit_type": "regular"
+    }
+  },
+  "ai_recommendations": "Product Description:\nStay stylish and comfortable in this trendy top featuring a beautiful combination of pink and gray colors. The loose fit and regular cut make it a versatile piece for any occasion.\n\nOutfit Suggestion:\nPair this top with high-waisted jeans and white sneakers for a casual and chic look. Add some dainty jewelry to elevate the outfit for a night out with friends.\n\nSocial Media Caption:\nFeeling pretty in pink and gray with this new top! #ootd #fashionista #pinkandgray #casualstyle",
+  "timestamp": "2025-06-04T22:19:03.593553"
+}

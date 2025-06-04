@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-06-04T21:44:25.715092",
+  "image_info": {
+    "name": "teen-girl-fashion-2019-teen-fashion-2019-clothes-for-teenage-girl-2019-dress-for-teenager-2019-junior-dresses-2019-oversize-style-768x960.jpg",
+    "size_bytes": 36566,
+    "dimensions": [
+      410,
+      512
+    ],
+    "processed_path": "static/temp_6ec51b3d-a6c8-4974-8f89-5afeba21d56b.jpg"
+  },
+  "analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          40,
+          44,
+          45
+        ],
+        "hex": "#282c2d",
+        "name": "black",
+        "percentage": 0.21
+      }
+    ],
+    "size_estimation": {
+      "recommended_size": "S",
+      "confidence": 0.8,
+      "reasoning": "Derived from clothing-to-body ratio calculations",
+      "size_range": "S to M"
+    },
+    "detected_items": [
+      {
+        "item": "pants",
+        "category": "bottoms",
+        "confidence": 0.81,
+        "box": [
+          107,
+          242,
+          302,
+          425
+        ]
+      },
+      {
+        "item": "t-shirt",
+        "category": "tops",
+        "confidence": 0.76,
+        "box": [
+          87,
+          131,
+          279,
+          274
+        ]
+      }
+    ],
+    "color_count": 1
+  },
+  "ai_insights": {
+    "product_description": "",
+    "outfit_suggestion": "",
+    "social_caption": "",
+    "full_response": "1. PRODUCT_DESCRIPTION: These black pants and t-shirt combo exude a sleek and modern aesthetic. The pants feature a comfortable fit and versatile style, while the t-shirt adds a casual yet chic touch to the outfit. Perfect for a day out or a casual evening gathering.\n\n2. OUTFIT_SUGGESTION: Pair these black pants with a crisp white button-down shirt and a pair of loafers for a smart casual look. For a more laid-back vibe, style the t-shirt with high-waisted jeans and sneakers. Add a statement belt or accessories to elevate the outfit.\n\n3. SOCIAL_CAPTION: \"Elevate your casual style with this black pants and t-shirt combo! Versatile and chic, perfect for any occasion. #FashionForward #CasualChic #BlackOutfit\""
+  },
+  "summary": {
+    "primary_colors": [
+      "black"
+    ],
+    "main_items": [
+      "pants",
+      "t-shirt"
+    ],
+    "confidence_avg": 0.79
+  }
+}

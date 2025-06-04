@@ -1,0 +1,89 @@
+{
+    "image_name": "img_ashish.jpg",
+    "file_size": 36079,
+    "image_dimensions": [
+        512,
+        512
+    ],
+    "colors": [
+        {
+            "rgb": [
+                2,
+                5,
+                14
+            ],
+            "hex": "#02050e",
+            "name": "black",
+            "percentage": 0.89
+        },
+        {
+            "rgb": [
+                2,
+                20,
+                34
+            ],
+            "hex": "#021422",
+            "name": "black",
+            "percentage": 0.54
+        },
+        {
+            "rgb": [
+                3,
+                21,
+                35
+            ],
+            "hex": "#031523",
+            "name": "black",
+            "percentage": 0.51
+        },
+        {
+            "rgb": [
+                3,
+                4,
+                8
+            ],
+            "hex": "#030408",
+            "name": "black",
+            "percentage": 0.44
+        },
+        {
+            "rgb": [
+                3,
+                20,
+                34
+            ],
+            "hex": "#031422",
+            "name": "black",
+            "percentage": 0.4
+        }
+    ],
+    "size_estimation": {
+        "recommended_size": "M",
+        "reasoning": "Based on shirt-to-jeans ratio and shoulder width"
+    },
+    "detected_items": [
+        {
+            "item": "shirt",
+            "confidence": 0.92,
+            "category": "casual",
+            "box": [
+                50,
+                60,
+                100,
+                140
+            ]
+        },
+        {
+            "item": "jeans",
+            "confidence": 0.88,
+            "category": "casual",
+            "box": [
+                55,
+                150,
+                100,
+                300
+            ]
+        }
+    ],
+    "gpt_advice": "Product Description:\nThis stylish outfit consists of a black shirt and black jeans, perfect for a casual yet trendy look. The recommended size is Medium, based on shirt-to-jeans ratio and shoulder width.\n\nOutfit Suggestion:\nFor a sleek and edgy look, pair this black shirt and jeans combo with a pair of black boots and a statement watch. Add a leather jacket for a touch of coolness.\n\nSocial Media Caption:\nFeeling effortlessly chic in my black-on-black outfit today! #CasualStyle #BlackIsAlwaysIn #OOTD \ud83d\udda4"
+}

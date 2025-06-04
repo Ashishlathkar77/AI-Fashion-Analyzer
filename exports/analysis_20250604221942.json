@@ -1,0 +1,64 @@
+{
+  "analysis_id": "20250604221942",
+  "image_info": {
+    "name": "teen-girl-fashion-2019-teen-fashion-2019-clothes-for-teenage-girl-2019-dress-for-teenager-2019-junior-dresses-2019-oversize-style-768x960.jpg",
+    "size_bytes": 27020,
+    "dimensions": [
+      410,
+      512
+    ],
+    "processed_path": "static/temp_78ba3d2e-15e1-4f5f-8d0d-9c597a7c110c.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          24,
+          46,
+          46
+        ],
+        "hex": "#182e2e",
+        "name": "black",
+        "percentage": 57.09
+      },
+      {
+        "rgb": [
+          188,
+          168,
+          155
+        ],
+        "hex": "#bca89b",
+        "name": "gray",
+        "percentage": 23.12
+      },
+      {
+        "rgb": [
+          94,
+          94,
+          86
+        ],
+        "hex": "#5e5e56",
+        "name": "gray",
+        "percentage": 19.79
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "black"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "L",
+    "confidence": 0.75,
+    "reasoning": "Based on shoulder-to-image ratio analysis and garment proportions",
+    "measurements": {
+      "shoulder_ratio": 35.45,
+      "fit_type": "regular"
+    }
+  },
+  "ai_recommendations": "Product Description:\nStay effortlessly chic in this stylish black and gray color-block top. Made with a comfortable fit and sleek design, this top is perfect for any casual occasion. The shoulder-to-image ratio analysis ensures a perfect fit for size L.\n\nOutfit Suggestion:\nPair this color-block top with high-waisted black skinny jeans and white sneakers for a trendy and comfortable look. Add some silver hoop earrings and a black crossbody bag to complete the outfit.\n\nSocial Media Caption:\n\"Monochrome magic with this black and gray color-block top \ud83d\udcab Effortlessly stylish and perfect for any casual day out #ootd #fashionista\"",
+  "timestamp": "2025-06-04T22:19:42.602353"
+}

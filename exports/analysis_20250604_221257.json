@@ -1,0 +1,45 @@
+{
+    "image_name": "teen-girl-fashion-2019-teen-fashion-2019-clothes-for-teenage-girl-2019-dress-for-teenager-2019-junior-dresses-2019-oversize-style-768x960.jpg",
+    "file_size": 27020,
+    "image_dimensions": [
+        410,
+        512
+    ],
+    "colors": [],
+    "size_estimation": {
+        "recommended_size": "XS",
+        "reasoning": "Width ratio: 0.21, Height ratio: 0.54",
+        "measurements": {
+            "width_ratio": 0.21,
+            "height_ratio": 0.54
+        }
+    },
+    "detected_items": [
+        {
+            "item": "shirt",
+            "confidence": 0.95,
+            "category": "top",
+            "box": [
+                0,
+                0,
+                410,
+                512
+            ],
+            "area_ratio": 0.77
+        },
+        {
+            "item": "pants",
+            "confidence": 0.08,
+            "category": "bottom",
+            "box": [
+                344,
+                396,
+                32,
+                92
+            ],
+            "area_ratio": 0.008
+        }
+    ],
+    "gpt_advice": "Unable to generate insights - insufficient clothing detection",
+    "analysis_timestamp": "2025-06-04T22:12:57.920151"
+}
