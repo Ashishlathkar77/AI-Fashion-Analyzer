@@ -7,7 +7,7 @@ from torchvision import transforms
 from .gender_detection import detect_gender
 
 try:
-    model = YOLO('yolov8n.pt')
+    model = YOLO('yolov8n-clothing.pt')  # Replace with fine-tuned model if available
 except Exception as e:
     print("YOLO model loading failed:", e)
     model = None
