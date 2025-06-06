@@ -5,9 +5,11 @@ from PIL import Image
 from ultralytics import YOLO
 from torchvision import transforms
 from .gender_detection import detect_gender
+import os
+os.environ['YOLO_CONFIG_DIR'] = '/tmp'
 
 try:
-    model = YOLO('yolov8n-clothing.pt')  # Replace with fine-tuned model if available
+    model = YOLO('yolov8n.pt')  # Replace with fine-tuned model if available
 except Exception as e:
     print("YOLO model loading failed:", e)
     model = None
