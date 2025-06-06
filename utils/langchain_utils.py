@@ -3,146 +3,136 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import os
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, temperature=0.7)
+llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model="gpt-4", temperature=0.7)
 
 def get_fashion_advice(colors, size_info, detected_items, gender_info):
-    """Generate gender-appropriate fashion advice."""
-    
-    # Create gender-specific prompt
+    """Generate advanced fashion advice using dynamic input conditioning."""
+
     gender = gender_info.get('gender', 'unisex')
     confidence = gender_info.get('confidence', 0.5)
-    
+
+    # Seasonal + palette inference
+    season = detect_season()
+    palette_type = detect_palette_type(colors)
+
+    # Select appropriate prompt template
     if gender == 'male':
         prompt_template = create_male_fashion_prompt()
     elif gender == 'female':
         prompt_template = create_female_fashion_prompt()
     else:
         prompt_template = create_unisex_fashion_prompt()
-    
-    # Create the chain
+
     chain = LLMChain(llm=llm, prompt=prompt_template)
-    
-    # Prepare input data
+
     colors_text = ", ".join([f"{c['name']} ({c['percentage']}%)" for c in colors[:3]])
     items_text = ", ".join([f"{item['item']} ({item['confidence']*100:.0f}% confidence)" for item in detected_items])
-    
+
+    # Run LLM chain
     response = chain.run({
         "colors": colors_text,
         "size_info": size_info,
         "detected_items": items_text,
         "gender": gender,
-        "gender_confidence": confidence
+        "gender_confidence": confidence,
+        "season": season,
+        "palette_type": palette_type
     })
-    
+
     return response
 
+# === Advanced Inference Helpers ===
+
+def detect_season():
+    """Infer season based on current month."""
+    month = datetime.now().month
+    if month in [12, 1, 2]:
+        return "Winter"
+    elif month in [3, 4, 5]:
+        return "Spring"
+    elif month in [6, 7, 8]:
+        return "Summer"
+    return "Fall"
+
+def detect_palette_type(colors):
+    """Infer color palette type (bold vs. neutral) based on saturation heuristics."""
+    bold_colors = ['red', 'blue', 'green', 'purple', 'orange', 'yellow']
+    neutral_colors = ['black', 'white', 'gray', 'brown', 'beige', 'navy']
+    score = sum(1 for c in colors if c['name'].lower() in bold_colors)
+    return "Bold" if score >= 2 else "Neutral"
+
+# === Prompt Templates ===
+
 def create_male_fashion_prompt():
-    """Create male-specific fashion advice prompt."""
     return PromptTemplate(
-        input_variables=["colors", "size_info", "detected_items", "gender", "gender_confidence"],
+        input_variables=["colors", "size_info", "detected_items", "gender", "gender_confidence", "season", "palette_type"],
         template="""
-        You are a men's fashion consultant. Analyze this outfit for a male customer:
-        
-        Detected Items: {detected_items}
-        Colors: {colors}
-        Size: {size_info}
-        Gender Detection: {gender} (confidence: {gender_confidence})
-        
-        Provide MALE-SPECIFIC advice including:
-        
-        1. **Product Description**: Describe the detected clothing items professionally
-        
-        2. **Style Assessment**: Rate the outfit and suggest improvements for men's fashion
-        
-        3. **Accessory Recommendations**: Suggest MALE accessories only:
-        - Watches (not jewelry)
-        - Belts
-        - Ties/bow ties if formal
-        - Cufflinks for dress shirts
-        - Men's bags (briefcase, messenger bag)
-        - Shoes that match
-        - Hats/caps if appropriate
-        
-        4. **Outfit Suggestions**: Recommend complete men's outfits using similar colors
-        
-        5. **Social Media Caption**: Write a masculine, confident caption
-        
-        IMPORTANT: Do NOT suggest jewelry, handbags, heels, or feminine accessories.
-        Focus on classic menswear and masculine styling.
-        """
+You are a professional men's fashion consultant. Based on the details below, provide a detailed analysis:
+
+- Detected Items: {detected_items}
+- Dominant Colors: {colors} (Palette Type: {palette_type})
+- Size Info: {size_info}
+- Season: {season}
+- Gender: {gender} (Confidence: {gender_confidence})
+
+Please deliver:
+1. **Stylized Product Description**: Describe the detected items with rich masculine styling cues.
+2. **Style Fit & Seasonality**: Rate the ensemble and explain how well it fits {season} trends.
+3. **Masculine Accessories**: Suggest men’s accessories (e.g. watches, bags, belts).
+4. **Style Alternatives**: Suggest 2 outfit combinations with similar color palette ({palette_type}) for {season}.
+5. **Instagram Caption**: Write a bold, masculine, engaging caption using fashion tone.
+
+IMPORTANT: Avoid any feminine style suggestions. Stick to modern or timeless men's styling.
+"""
     )
 
 def create_female_fashion_prompt():
-    """Create female-specific fashion advice prompt."""
     return PromptTemplate(
-        input_variables=["colors", "size_info", "detected_items", "gender", "gender_confidence"],
+        input_variables=["colors", "size_info", "detected_items", "gender", "gender_confidence", "season", "palette_type"],
         template="""
-        You are a women's fashion consultant. Analyze this outfit for a female customer:
-        
-        Detected Items: {detected_items}
-        Colors: {colors}
-        Size: {size_info}
-        Gender Detection: {gender} (confidence: {gender_confidence})
-        
-        Provide FEMALE-SPECIFIC advice including:
-        
-        1. **Product Description**: Describe the detected clothing items with feminine styling focus
-        
-        2. **Style Assessment**: Rate the outfit and suggest improvements for women's fashion
-        
-        3. **Accessory Recommendations**: Suggest FEMALE accessories:
-        - Jewelry (necklaces, earrings, bracelets, rings)
-        - Handbags and purses
-        - Scarves
-        - Hair accessories
-        - Belts
-        - Shoes (heels, flats, boots)
-        - Makeup suggestions to complement colors
-        
-        4. **Outfit Suggestions**: Recommend complete women's outfits with styling tips
-        
-        5. **Social Media Caption**: Write a fashionable, empowering caption
-        
-        Focus on feminine styling, elegant combinations, and women's fashion trends.
-        """
+You are a leading women's fashion stylist. Review this outfit:
+
+- Detected Items: {detected_items}
+- Colors: {colors} (Palette: {palette_type})
+- Size Info: {size_info}
+- Season: {season}
+- Gender: {gender} (Confidence: {gender_confidence})
+
+Deliver:
+1. **Feminine Product Breakdown**: Describe each item with stylish, feminine detail.
+2. **Trend Check**: Evaluate the fit and suggest updates based on {season} fashion.
+3. **Accessories for Her**: Recommend perfect accessories (jewelry, bags, shoes).
+4. **Outfit Suggestions**: Share 2 fashionable women's outfit ideas for {season}, using {palette_type} colors.
+5. **Instagram Caption**: Craft a chic, elegant, empowering caption.
+
+Avoid any masculine references. Focus on elevated, trendy women's wear.
+"""
     )
 
 def create_unisex_fashion_prompt():
-    """Create unisex fashion advice prompt."""
     return PromptTemplate(
-        input_variables=["colors", "size_info", "detected_items", "gender", "gender_confidence"],
+        input_variables=["colors", "size_info", "detected_items", "gender", "gender_confidence", "season", "palette_type"],
         template="""
-        You are a fashion consultant. The gender detection was inconclusive, so provide UNISEX advice:
-        
-        Detected Items: {detected_items}
-        Colors: {colors}
-        Size: {size_info}
-        Gender Detection: {gender} (confidence: {gender_confidence})
-        
-        Provide GENDER-NEUTRAL advice including:
-        
-        1. **Product Description**: Describe the outfit in neutral terms
-        
-        2. **Style Assessment**: Rate the outfit with unisex styling principles
-        
-        3. **Accessory Recommendations**: Suggest UNISEX accessories only:
-        - Watches
-        - Sunglasses
-        - Bags (backpacks, crossbody bags)
-        - Belts
-        - Sneakers/casual shoes
-        - Hats/caps
-        - Minimal jewelry (if any)
-        
-        4. **Outfit Suggestions**: Recommend versatile, gender-neutral combinations
-        
-        5. **Social Media Caption**: Write an inclusive, style-focused caption
-        
-        AVOID: Gender-specific suggestions like makeup, high heels, or masculine/feminine language.
-        Focus on universal style principles and versatile pieces.
-        """
+You are a unisex fashion stylist. The gender was inconclusive, so remain neutral:
+
+- Items: {detected_items}
+- Colors: {colors} (Palette: {palette_type})
+- Size: {size_info}
+- Season: {season}
+- Gender Detection: {gender} (Confidence: {gender_confidence})
+
+Please deliver:
+1. **Gender-Neutral Product Summary**: Describe the look without gender bias.
+2. **Style Evaluation**: Assess overall style fit for the current {season}.
+3. **Unisex Accessories**: Recommend universally wearable items (hats, shoes, watches).
+4. **Neutral Outfit Suggestions**: Suggest 2 versatile outfits suitable for anyone using the {palette_type} palette.
+5. **Inclusive Caption**: Write a creative, inclusive social caption.
+
+Avoid gender-specific language or styling. Prioritize versatility and universal appeal.
+"""
     )

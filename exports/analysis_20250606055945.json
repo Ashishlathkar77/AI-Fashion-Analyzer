@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250606055945",
+  "image_info": {
+    "name": "HM-Men-2016-Spring-Summer-Look-Book-001-800x1132.jpg",
+    "size_bytes": 18423,
+    "dimensions": [
+      362,
+      512
+    ],
+    "processed_path": "static/temp_62b10cb2-6bac-49ba-b1bf-796bb502ccb9.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          125,
+          83,
+          52
+        ],
+        "hex": "#7d5334",
+        "name": "brown",
+        "percentage": 53.28
+      },
+      {
+        "rgb": [
+          29,
+          23,
+          21
+        ],
+        "hex": "#1d1715",
+        "name": "black",
+        "percentage": 24.28
+      },
+      {
+        "rgb": [
+          144,
+          127,
+          118
+        ],
+        "hex": "#907f76",
+        "name": "gray",
+        "percentage": 22.44
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "brown"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "S",
+    "confidence": 0.78,
+    "reasoning": "Edge strength in upper body region indicates shoulder width and build",
+    "measurements": {
+      "shoulder_ratio": 0.1,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 0.0,
+      "female_percentage": 13.3
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a mix of brown, black, and gray colors in a size S with a regular fit. The ensemble is versatile and suitable for various occasions.\n\n2. **Style Assessment**: The outfit is rated highly for its unisex styling principles, incorporating neutral colors and a fit that can flatter a wide range of body types.\n\n3. **Accessory Recommendations**: \n   - A classic watch with a leather or metal band\n   - Aviator sunglasses in a neutral tone\n   - A sleek crossbody bag in a versatile color\n   - A minimalist belt in black or brown\n   - Casual sneakers in a neutral color\n   - A stylish cap or beanie\n   - Simple, understated jewelry pieces\n\n4. **Outfit Suggestions**: Pair a black t-shirt with gray jeans and brown sneakers for a casual yet chic look. Layer with a black jacket for cooler weather. Alternatively, mix and match the colors for a more dynamic ensemble.\n\n5. **Social Media Caption**: \"Embracing timeless style with a mix of neutral tones and versatile pieces. Fashion knows no bounds when it comes to expressing yourself. #UnisexFashion\"",
+  "timestamp": "2025-06-06T05:59:45.839631"
+}

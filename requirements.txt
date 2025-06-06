@@ -24,3 +24,6 @@ python-dotenv  # For loading API keys from .env
 numpy
 requests
 tqdm
+
+scikit-image  # For image processing tasks
+-g ngrok  # For exposing the FastAPI server to the internet

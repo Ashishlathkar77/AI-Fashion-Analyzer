@@ -1,0 +1,73 @@
+{
+  "analysis_id": "20250606060038",
+  "image_info": {
+    "name": "img_ashish.jpg",
+    "size_bytes": 36079,
+    "dimensions": [
+      512,
+      512
+    ],
+    "processed_path": "static/temp_76198efc-9ceb-4e17-85b8-1e0455beb09e.jpg"
+  },
+  "color_analysis": {
+    "dominant_colors": [
+      {
+        "rgb": [
+          8,
+          23,
+          36
+        ],
+        "hex": "#081724",
+        "name": "black",
+        "percentage": 50.84
+      },
+      {
+        "rgb": [
+          158,
+          193,
+          212
+        ],
+        "hex": "#9ec1d4",
+        "name": "mint",
+        "percentage": 30.85
+      },
+      {
+        "rgb": [
+          129,
+          114,
+          101
+        ],
+        "hex": "#817265",
+        "name": "gray",
+        "percentage": 18.31
+      }
+    ],
+    "color_count": 3,
+    "primary_color": "black"
+  },
+  "garment_detection": {
+    "detected_items": [],
+    "item_count": 0,
+    "confidence_avg": 0
+  },
+  "size_analysis": {
+    "recommended_size": "S",
+    "confidence": 0.78,
+    "reasoning": "Edge strength in upper body region indicates shoulder width and build",
+    "measurements": {
+      "shoulder_ratio": 0.28,
+      "fit_type": "regular"
+    }
+  },
+  "gender_detection": {
+    "gender": "unisex",
+    "confidence": 0.6,
+    "reasoning": "Mixed gender indicators detected",
+    "scores": {
+      "male_percentage": 10.0,
+      "female_percentage": 0.0
+    }
+  },
+  "ai_recommendations": "1. **Product Description**: This outfit features a combination of black, mint, and gray colors in a size S with a regular fit, highlighting the shoulder width and build.\n\n2. **Style Assessment**: This outfit is rated highly for its unisex styling principles, as the colors and fit can be easily worn by anyone regardless of gender.\n\n3. **Accessory Recommendations**:\n   - Watches: A sleek and minimalist watch in silver or black.\n   - Sunglasses: Classic aviators or wayfarer sunglasses in a neutral color.\n   - Bags: A versatile backpack in a neutral color like black or gray.\n   - Belts: A simple leather belt in black or brown.\n   - Sneakers: Comfortable and stylish sneakers in a neutral color.\n   - Hats: A basic baseball cap in a neutral tone.\n   - Minimal jewelry: Opt for simple and unisex pieces like a plain silver bracelet or necklace.\n\n4. **Outfit Suggestions**: Pair the outfit with black jeans or gray chinos for a casual yet stylish look. Add a mint-colored scarf for a pop of color and layer with a black bomber jacket for cooler weather.\n\n5. **Social Media Caption**: \"Embracing versatile colors and a classic fit for a timeless look. #UnisexFashion #NeutralStyle\"",
+  "timestamp": "2025-06-06T06:00:38.791369"
+}
